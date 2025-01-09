@@ -1,0 +1,264 @@
+/* Transparent and Blurred Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #243642 !important;
+    backdrop-filter: blur(10px);
+    position: fixed;  
+    z-index: 999;
+    width: 100%;
+}
+/*background fakta lingkungan */
+#konten {
+  background-color: #387478; /* Warna latar belakang keseluruhan section */
+  padding: 50px 0; /* Padding bagian atas dan bawah */
+}
+#konten .card {
+  background-color: #ffffff; /* Warna latar belakang setiap card */
+  border: 1px solid #ddd; /* Warna border card */
+  box-shadow:  10px 12px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+#konten h2 {
+  font-weight: 700; /* Membuat teks lebih tebal */
+  font-size: 2.5rem; /* Ukuran font lebih besar */
+  color: #ffffff; /* Warna teks */
+  text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+  letter-spacing: 1.5px; /* Memberikan jarak antar huruf */
+  text-shadow:  5px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+/* Ubah warna tombol "Baca Selengkapnya" */
+#konten .btn-primary {
+  background-color: #243642; /* Warna hijau */
+  color: #fff; /* Warna teks putih */
+  font-weight: bold; /* Teks tebal */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transisi untuk hover */
+}x
+
+.navbar .nav-link, .navbar .navbar-brand {
+  color: white !important;
+}
+.navbar .nav-link, .navbar .navbar-brand .nav-link {
+  color: white !important;
+}
+
+
+.image-overlay h1 {
+  font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Membuat elemen turun jika tidak muat */
+    justify-content: space-between; /* Memberikan jarak antar elemen */
+    gap: 10px; /* Tambahkan jarak antar elemen */
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 10px); /* 3 kolom di layar besar */
+    max-width: calc(33.333% - 10px); /* Maksimal lebar untuk tiap kolom */
+    margin-bottom: 15px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 10px); /* 2 kolom di layar sedang */
+      max-width: calc(50% - 10px);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .card {
+      flex: 1 1 100%; /* 1 kolom di layar kecil */
+      max-width: 100%;
+    }
+  }
+  img {
+    max-width: 100%; /* Buat gambar fleksibel */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    display: block; /* Hilangkan jarak ekstra dari gambar inline */
+  }
+  .card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; /* Potong teks yang terlalu panjang */
+  }
+  .card {
+    padding: 10px;
+    box-sizing: border-box; /* Termasuk padding dalam ukuran elemen */
+  }
+      
+.card {
+    flex: 1;
+    max-width: 300px;
+}
+
+.d-flex {
+    gap: 30px; /* Jarak antar card */
+}
+  /* persen donasi */
+  .progress {
+    height: 30px; /* Menentukan tinggi progress bar */
+}
+
+/* Bagian Kampanye */
+#kampanye {
+    background-color: #387478; /* Latar belakang hijau muda */
+    padding: 50px 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks rata tengah */
+    font-family: Arial, sans-serif;
+    text-shadow:  5px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+#kampanye h2 {
+    font-size: 2rem; /* Ukuran font judul */
+    font-weight: bold; /* Teks tebal */
+    color: #ffffff; /* Warna teks hijau tua */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+#kampanye .progress-bar {
+    width: 80%; /* Lebar progress bar */
+    background-color: #f1f1f1; /* Warna latar belakang progress bar */
+    border-radius: 20px; /* Membuat sudut progress bar melengkung */
+    margin: 0 auto 20px; /* Memusatkan dan memberikan jarak bawah */
+    height: 30px; /* Tinggi progress bar */
+    overflow: hidden; /* Agar isi tidak keluar dari radius */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Efek bayangan di dalam */
+}
+
+#kampanye .progress {
+    background-color: #243642; /* Warna hijau progress */
+    height: 100%; /* Tinggi penuh dalam progress bar */
+    text-align: center; /* Teks rata tengah */
+    line-height: 30px; /* Menyesuaikan teks di tengah vertikal */
+    color: white; /* Warna teks putih */
+    font-weight: bold; /* Teks tebal */
+}
+
+#kampanye p {
+    font-size: 1rem; /* Ukuran font paragraf */
+    color: #ffffff; /* Warna teks hijau */
+    margin-bottom: 20px; /* Jarak bawah paragraf */
+}
+
+#kampanye .btn-donasi {
+    display: inline-block; /* Tombol dalam bentuk blok */
+    background-color: #243642; /* Warna tombol hijau */
+    color: white; /* Warna teks putih */
+    font-size: 1rem; /* Ukuran font tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: 2px solid #ffffff; /* Border hijau */
+    border-radius: 5px; /* Sudut tombol melengkung */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transisi efek hover */
+}
+
+
+/* Bagian Quiz */
+#quiz {
+  background-color: #243642; /* Warna hijau muda lembut */
+  padding: 50px 0; /* Padding atas dan bawah */
+  font-family: Arial, sans-serif;
+}
+
+#quiz h2 {
+  font-size: 2rem; /* Ukuran font judul */
+  font-weight: bold; /* Teks tebal */
+  color: #243642; /* Warna teks hijau tua */
+  margin-bottom: 30px; /* Jarak bawah judul */
+  text-align: center; /* Teks rata tengah */
+  text-shadow:  3px 3px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+#quiz .form-label {
+  font-size: 1rem; /* Ukuran font label */
+  font-weight: bold; /* Teks label tebal */
+  color: #243642; /* Warna teks hijau tua */
+}
+
+#quiz .form-control {
+  border: 2px solid #243642; /* Border hijau */
+  border-radius: 5px; /* Sudut melengkung pada input */
+  padding: 10px; /* Padding dalam input */
+  font-size: 1rem; /* Ukuran font input */
+}
+
+
+#quiz .btn-primary {
+  background-color: #243642 ; /* Warna tombol hijau */
+  padding: 10px 20px; /* Padding tombol */
+  font-size: 1rem; /* Ukuran font tombol */
+  border-radius: 5px; /* Sudut melengkung tombol */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transisi untuk hover */
+}   
+#quiz .btn-primary:hover {
+  background-color: #9c9c9c; /* Warna tombol saat hover */
+}
+
+/* Buat gambar sosial media sejajar secara horizontal */
+footer .social-media {
+  display: flex;
+  justify-content: center; /* Gambar berada di tengah */
+}
+
+.footer-custom {
+  background-color: #ffffff; /* Hijau */
+  color: #243642; /* Teks putih */
+}
+
+footer .social-media img {
+  max-height: 75px; /* Ukuran maksimal gambar */
+  width: auto; /* Jaga rasio gambar */
+  text-align: center;
+}
+
+/* Warna khusus untuk tombol navbar */
+.navbar .nav-link#profil-btn {
+  background-color: #28a745; /* Hijau untuk tombol Profil */
+  color: white; /* Warna teks putih */
+  border-radius: 5px; /* Membuat tombol lebih estetis */
+  padding: 8px 16px; /* Spasi di dalam tombol */
+  transition: background-color 0.3s ease; /* Efek hover halus */
+}
+
+.navbar .nav-link#profil-btn:hover {
+  background-color: #218838; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Warna khusus untuk teks Profil dalam modal */
+.modal-title {
+  color: #ffffff; /* Warna hijau untuk teks "Profil" */
+  font-weight: bold; /* Tambahkan ketebalan pada teks */
+}
+
+
+/* Warna latar belakang pada navbar */
+.navbar {
+  background-color: #243642; /* Hijau */
+  color: white; /* Teks navbar berwarna putih */
+}
+
+/* Warna latar belakang modal */
+.modal-content {
+  background-color: #387478; /* Abu terang */
+  color: #ffffff; /* Teks warna gelap */
+}
+
+/* Tambahkan warna pada modal header */
+.modal-header {
+  background-color: #243642; /* Hijau */
+  color: white; /* Teks header putih */
+}
+
+/* Tambahkan warna pada modal footer */
+.modal-footer {
+  background-color: #243642; /* Abu-abu terang */
+}
+
+/* Tombol navigasi di modal */
+.modal-footer .btn-outline-secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.modal-footer .btn-outline-secondary:hover {
+  background-color: #243642;
+  color: rgb(253, 253, 253);
+}
