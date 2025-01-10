@@ -20,12 +20,6 @@ Website **Edukasi Lingkungan** adalah platform yang dirancang untuk meningkatkan
 │   └── ...             # Gambar lainnya
 ├── README.md           # Dokumentasi proyek ini
 ```
-
-## Teknologi yang Digunakan
-- **HTML5**: Untuk struktur dasar halaman.
-- **CSS3**: Untuk styling dan tata letak.
-- **Bootstrap 5**: Untuk elemen antarmuka seperti navbar, kartu, dan modal.
-
 ## Cara Menjalankan
 1. Clone repository ini ke komputer Anda.
    ```bash
