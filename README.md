@@ -1,12 +1,10 @@
 # Edukasi Lingkungan Website
-
 ## Deskripsi
 Website **Edukasi Lingkungan** adalah platform yang dirancang untuk meningkatkan kesadaran masyarakat tentang pelestarian lingkungan dan memberikan informasi yang relevan terkait isu-isu lingkungan terkini. Website ini menyajikan fakta-fakta penting, kampanye donasi, serta kuis interaktif untuk melibatkan pengunjung secara aktif.
-
 ## Fitur
 1. **Navbar**: Navigasi mudah ke bagian-bagian utama website, seperti Beranda, Fakta, Quiz, dan Donasi.
 2. **Latar Belakang Visual**: Latar belakang penuh gambar dengan overlay teks untuk menarik perhatian pengunjung.
-3. **Fakta Lingkungan**: Informasi berbentuk kartu tentang isu-isu lingkungan terkini dengan fitur modal untuk detail lebih lanjut.
+3. **Fakta Lingkungan**: Informasi berbentuk kartu/card tentang isu-isu lingkungan terkini dengan fitur modal untuk detail lebih lanjut.
 4. **Quiz Interaktif**: Formulir kuis sederhana untuk meningkatkan kesadaran dan pemahaman masyarakat tentang lingkungan.
 5. **Donasi Kampanye**: Informasi progress kampanye dalam bentuk progress bar untuk melibatkan dukungan komunitas.
 
