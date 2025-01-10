@@ -36,9 +36,6 @@ Website **Edukasi Lingkungan** adalah platform yang dirancang untuk meningkatkan
 ## Kontribusi
 Kami terbuka terhadap kontribusi dari komunitas. Silakan fork repository ini dan kirimkan pull request jika Anda memiliki perbaikan atau fitur baru.
 
-## Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
 ## Kontak
 Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami di:
 - Email: m.fadhilashilah@gmail.com
